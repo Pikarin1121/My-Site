@@ -145,6 +145,11 @@ main {
 }
 
 .feature {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feature-content {
   width: 980px;
   margin: 90px auto 90px;
   text-align: center;
@@ -231,6 +236,11 @@ main {
 }
 
 .contact {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-content {
   width: 800px;
   margin: 0 auto;
   padding-top: 90px;
@@ -380,4 +390,67 @@ footer {
 
   .box-list:nth-child(4) {
     margin-bottom: 10px;
+  }
+
+  .feature {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .feature-content {
+    width: 90%;
+  }
+
+  .strength {
+    display: inline-block;
+  }
+
+  .strength-list:nth-child(2) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .profile {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .profile-content {
+    width: 90%;
+  }
+
+  .information {
+    display: inline-block;
+  }
+
+  .information-icon {
+    margin: 30px auto 20px;
+  }
+
+  .information-text:nth-child(2){
+    text-align: center;
+  }
+
+  .contact-content {
+    width: 90%;
+  }
+
+  .mail {
+    display: inline-block;
+  }
+
+  .left-mail-mail {
+    text-align: center;
+  }
+
+  .left-detail:last-child {
+    margin: 20px auto 20px;
+  }
+
+  .right-sns-sns {
+    text-align: center;
+  }
+
+  .icon-size:nth-child(3) {
+    margin: 0 8px 0;
   }
